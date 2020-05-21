@@ -102,7 +102,7 @@ input, select {
 }
 
 /*======================================================*/
-/*全体*/
+
 
 body {
     color: #444;
@@ -120,12 +120,12 @@ a {
 
 a:hover {
     font-weight: bold;
-    color: #00a1e9;
+    color:#02c52c;
 }
 
 /*======================================================*/
 
-/*ヘッダー*/
+
 .header {
     width: 100%;
     position: fixed;
@@ -133,7 +133,7 @@ a:hover {
     height: 80px;
     background: #f9f9f9;
     overflow: hidden;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     z-index: 10;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 }
 
 
-/*ハンバーガーメニュー*/
+
 #js-nav-toggle {
     display: none;
     position: absolute;
@@ -290,19 +290,19 @@ a:hover {
 
 /*======================================================*/
 
-/*メインビジュアル*/
 
 .main-visual {
     width: 100%;
     max-width: 1200px;
-    margin: 80px auto 100px;
-    display: flex;
-    flex-direction: row;
+    margin: 80px 0 100px ;
+    display: block;
     height: 400px;
 }
 
 .main-visual_img {
-    width: 40%;
+    width: 100%;
+    background:#ddd url(image/portfolio01.jpg) no-repeat center center;
+    background-size:cover;
 }
 
 .main-visual_img img {
@@ -310,9 +310,6 @@ a:hover {
     width: 100%;
 }
 
-.main-visual_greeting {
-    width: 60%;
-}
 
 .greeting-container {
     text-align: center;
@@ -335,7 +332,7 @@ a:hover {
 
 .greeting-1  {
     width: 30%;
-    background  : linear-gradient(271deg, #a0d8ef, #00a1e9, #006eb0);     color: #fff;
+    background  : linear-gradient(271deg, #a4efa0, #02c52c, #07633a);     color: #fff;
     padding: 10px;
     margin: 50px auto 0;
     font-weight: bold;
@@ -404,7 +401,7 @@ a:hover {
 .main h2 {
     font-size: 20px;
     font-weight: bold;
-    background  : linear-gradient(271deg, #a0d8ef, #00a1e9, #006eb0);     color: #fff;
+    background  : linear-gradient(271deg, #a4efa0, #02c52c, #07633a);     color: #fff;
     padding: 10px 20px;
     width: 15%;
     margin: 0 auto 5px;
@@ -540,7 +537,7 @@ a:hover {
     background: #fff;
     margin-bottom: 40px;
     line-height: 200px;
-    border: 2px solid #00a1e9;
+    border: 2px solid #02c52c;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -580,7 +577,7 @@ a:hover {
     width: 300px;
     height: 300px;
     border-radius: 300px;
-    background: #00a1e9;
+    background: #02c52c;
     color: #fff;
     margin-bottom: 40px;
 }
@@ -600,7 +597,7 @@ a:hover {
 
 /*======================================================*/
 
-/*フッター*/
+/*ãƒ•ãƒƒã‚¿ãƒ¼*/
 
 .footer {
     background: #444;
@@ -621,10 +618,10 @@ a:hover {
 }
 
 /*======================================================*/
-/*JavaScriptを使用する要素/*
+/*JavaScriptã‚’ä½¿ç”¨ã™ã‚‹è¦ç´ /*
 /*======================================================*/
 
-/*スクロール用ボタン*/
+/*ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ç”¨ãƒœã‚¿ãƒ³*/
 
 #js-page-top {
     width: 60px;
@@ -662,7 +659,7 @@ a:hover {
     
 }
 
-/*メッセージ*/
+/*ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸*/
 .message-toggle {
     width: 200px;
     height: 50px;
@@ -696,7 +693,7 @@ a:hover {
     }
 }
 
-/*フェードイン*/
+/*ãƒ•ã‚§ãƒ¼ãƒ‰ã‚¤ãƒ³*/
 .fade-element-up {
     transition: .6s;
     transform: translateY(50px);
